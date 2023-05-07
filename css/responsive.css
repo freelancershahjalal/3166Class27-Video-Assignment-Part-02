@@ -1,0 +1,225 @@
+.header {    
+    padding: 10px 0px;
+}
+
+@media all and (max-width: 1520px){
+    .container-width {
+        padding: 0px 20px;
+    }
+
+}
+@media all and (max-width: 1200px){
+    .header .header-right .header-menu li a {
+        padding: 0px 25px;
+    }
+}
+@media all and (max-width: 1024px){
+    .header .header-left {
+        width: 100%;
+        text-align: center;
+    }
+    .header .header-right {
+        width: 100%;
+        text-align: center;
+    }
+    .about {
+        padding: 50px 0px;
+    }
+    .about .about-content {
+        padding: 50px 0px;
+    }
+    .about .about-left {
+        width: 48%;
+    }
+    .about .about-right {
+        width: 48%;
+    }
+
+    .contactForm {
+        width: 345px;
+        height: auto;
+        padding: 10px;
+    }
+    .inputText input {
+        width: 160px;
+        padding: 13px 10px;
+    }
+    input {       
+        width: 325px;
+    }
+    textarea.text-area {
+        width: 325px !important;
+    }
+}
+
+@media all and (max-width: 768px){
+    .header .header-left img {
+        width: 130px;
+    }
+    .header .header-right .header-menu li a {
+        font-size: 18px;
+        padding: 0px 15px;
+        border: none;
+    }
+    .banner {
+        padding: 100px 0px;
+    }
+    .banner .banner-content h2 {
+        font-size: 23px;
+    }
+    .banner .banner-content h1 {
+        margin-top: 15px;
+        max-width: 400px;
+        font-size: 30px;
+    }
+    .about .about-content h1 {
+        font-size: 27px;
+    }
+    .about .about-right h2 {
+        font-size: 25px;
+    }
+    .about .about-content p {
+        padding: 0px 100px;
+        font-size: 18px;
+    }
+
+    .about .about-left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .about .about-left img {
+        width: 100%;
+    }
+    .about .about-right {
+        width: 100%;
+    }    
+    .services {
+        padding: 20px 0px;
+    }
+    .services .service-content h1 {
+        font-size: 27px;
+    }
+    .services .service-content p {
+        padding: 0px 150px;
+        font-size: 18px;
+    }
+    .services .service-item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .services .service-item span {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+    .services .service-item h3 {
+        font-size: 20px;
+    }
+    .services .service-content h1 {
+        font-size: 27px;
+    }
+
+    .blog .blog-content h1 {
+        font-size: 27px;
+    }
+
+    .blog .blog-content p {
+        padding: 0px 150px;
+        font-size: 18px;
+    }
+    .blog .blog-content-left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .blog .blog-content-right-notification {
+        width: 100%;
+    }
+    .contact .contact-content h1 {
+        font-size: 27px;
+    }
+    .contact .contact-content p {
+        padding: 0px 150px;
+        font-size: 18px;
+    }
+    .contact .contact-left {
+        width: 100%;
+        margin-bottom: 30px;
+    } 
+    .contact .contact-left .contact-one {
+        text-align: center;
+    }
+    .contact .contact-left .contact-one i {
+        float: inherit;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .contact .contact-right {
+        width: 100%;
+    }
+    legend {
+        font-size: 18px;
+    }
+    input[type="submit"] {
+        width: 30%;
+        font-size: 18px;
+    }   
+}
+@media all and (max-width: 576px){
+    /* .contactForm {
+        width: 400px;
+        height: auto;
+        padding: 10px;
+    }
+    .inputText input {
+        width: 160px;
+        padding: 13px 10px;
+    }
+    input {       
+        width: 325px;
+    }
+    textarea.text-area {
+        width: 325px !important;
+    } */
+}
+@media all and (max-width: 525px){
+    .header .header-left img {
+        width: 100px;
+    }
+    .header .header-right .header-menu li a {
+        font-size: 16px;
+        padding: 0px 8px;
+    }
+    .banner {
+        padding: 50px 0px;
+    }
+    .banner .banner-content h1 {
+        font-size: 28px;
+    }
+
+    .about .about-content {
+        padding: 30px 0px;
+    }
+    .about .about-content p {
+        padding: 0px 50px;
+    }
+    .about .about-right h2 {
+        font-size: 20px;
+    }
+    .services .service-content p {
+        padding: 0px 50px;
+    }
+    .blog .blog-content p {
+        padding: 0px 50px;
+    }
+    .contact .contact-content p {
+        padding: 0px 50px;
+    }
+    .footer strong {
+        font-size: 16px;
+    }
+    .contactForm {
+        width: 345px;
+    }
+
+}
